@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.16/angular-route.min.js'></script>
+<script type="text/javascript" src="routing.js"></script>
+</head>
+<body ng-app='myMain'>
+<div ng-hide='dekhau'>
+<a href='#homebase'>Base</a>
+<a href='#bio'>BIOGRAPHY</a>
+<a href='#contact'>CONTACT US</a>
+</div>
+<div ng-view></div>
+</body>
+</html>
