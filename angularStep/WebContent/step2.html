@@ -1,0 +1,20 @@
+<div >
+<label>Location</label>
+<select ng-model='location'>
+<option>SF</option>
+<option selected>LA</option>
+<option>Chicago</option>
+<option>Texas</option></select><hr>
+<label>Date of Departure</label>    <input type='date' data-date-format='yyyy-mm' class='form-control' ng-model='dateDepart'>
+ <label>Date of Return</label>   <input type='date' data-date-format='yyyy-mm' class='form-control' ng-model='dateReturn' >
+
+ <hr>
+ 
+   <a href='#step3'> <div class='btn btn-info' ng-click='nextto3()'>Next to 3</div></a>
+   <!--
+   
+   For routeParams method
+   
+    <a href='#step3/{{name}}/{{lname}}/{{emailadd}}/{{phonenumber}}/{{dateDepart}}/{{dateReturn}}/{{location}}'> <div class='btn btn-info'>Next to 3</div></a>
+ -->
+    </div>
